@@ -20,7 +20,7 @@ else {
     padLocalToken: process.env.PAD_LOCAL_TOKEN,
   };
 }
-
+console.log("configFile.openaiApiKey",configFile.openaiApiKey)
 // warning if no OpenAI API key found
 if (configFile.openaiApiKey === undefined) {
   console.error(
